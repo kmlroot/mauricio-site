@@ -9,16 +9,36 @@ import Navigation from '../components/navigation'
 
 const Index = ({ posts }) => {
   
+  const inPosts = posts.filter(inCategory('post')).sort(sortByDate)
+  const inHome = posts.filter(inCategory('home'))
+
   posts.sort(sortByDate)
 
   return (
     <main style={styles.main}>
       <Navigation style={styles.navigation} />
-      <NexteinHello/>
       <section style={styles.section}>  
         {
           posts
           .map((post, idx) => <PostListEntry key={idx} {...post}/>)
+        }
+      </section>
+    
+      <section style={styles.section}>
+        <h3>By Tag</h3>
+        <h1>/post</h1>
+        <p>{inPosts.length} entries found.</p>
+        {
+          inPosts
+            .map((post, idx) => <PostListEntry key={idx} {...post} />)
+        }
+      </section>
+      <section style={styles.section}>
+        <h1>/home</h1>
+        <p>{inHome.length} entries found.</p>
+        {
+          inHome
+            .map((post, idx) => <PostListEntry key={idx} {...post} />)
         }
       </section>
     </main>

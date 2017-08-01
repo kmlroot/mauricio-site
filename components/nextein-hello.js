@@ -3,8 +3,12 @@ import React from 'react'
 
 export default () => (
   <section style={styles.section}>
-    <h1><span style={{ fontWeight: 200 }} >Hello, there. I'm </span>Nextein</h1>
-    <p> A Blog / Static site generator based in <strong>Next.js</strong></p>
+    <h1><span style={{ fontWeight: 200 }} >Hello, there. I'm </span>Mauricio Serna</h1>
+    <figure>
+      <img src="https://s3-us-west-2.amazonaws.com/mauricioserna/static/perfil.jpg" alt="perfil"
+      style={styles.img}/>
+    </figure>
+    <p> A Software Developer from <strong>Medellin, Colombia</strong></p>
   </section>
 )
 
@@ -17,6 +21,11 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f4f4f4'
+    backgroundColor: '#fff'
+  },
+
+  img: {
+    width: '200px',
+    borderRadius: '50%'
   }
 }

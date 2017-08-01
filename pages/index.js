@@ -8,30 +8,11 @@ import NexteinHello from '../components/nextein-hello'
 import Navigation from '../components/navigation'
 
 const Index = ({ posts }) => {
-  
-  const inPosts = posts.filter(inCategory('post')).sort(sortByDate)
-  const inHome = posts.filter(inCategory('home'))
 
   return (
     <main style={styles.main}>
       <Navigation style={styles.navigation}/>
       <NexteinHello/>
-      <section style={styles.section}>  
-        <h1>/post</h1>
-        <p>{inPosts.length} entries found.</p>    
-        {
-          inPosts
-          .map((post, idx) => <PostListEntry key={idx} {...post}/>)
-        }
-      </section>
-      <section style={styles.section}>  
-        <h1>/home</h1>
-        <p>{inHome.length} entries found.</p>    
-        {
-          inHome
-          .map((post, idx) => <PostListEntry key={idx} {...post}/>)
-        }
-      </section>
     </main>
   )
 }
@@ -44,12 +25,6 @@ const styles = {
     fontWeight: 100,
     display: 'flex',
     flexDirection: 'column'
-  },
-  section: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignSelf: 'center',
-    width: '60vw' 
   },
   navigation: {
     position: 'absolute',
