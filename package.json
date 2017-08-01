@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nextein",
-    "export": "nextein build && nextein export"
+    "build": "next build",
+    "export": "next export -o mauricio",
+    "serve": "serve ./mauricio",
+    "start": "next start",
+    "deploy": "now deploy mauricio"
   },
   "keywords": [],
   "author": "",
