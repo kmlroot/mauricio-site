@@ -4,7 +4,7 @@ import React from 'react'
 import withPosts, { inCategory, sortByDate } from 'nextein/posts'
 
 import PostListEntry from '../components/post-list-entry'
-import NexteinHello from '../components/nextein-hello'
+import NexteinHello from '../components/home'
 import Navigation from '../components/navigation'
 
 const Index = ({ posts }) => {
