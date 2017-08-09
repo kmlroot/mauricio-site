@@ -31,6 +31,4 @@ const styles = {
     alignSelf: 'center',
     width: '60vw'
   }
-
-
 }

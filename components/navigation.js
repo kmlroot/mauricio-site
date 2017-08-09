@@ -5,7 +5,7 @@ export default ({ style }) => {
     <nav style={{...styles.nav, ...style}}>
       <a style={styles.item} href="/">Home</a>
       <a style={styles.item} href="https://github.com/fmauricios" target="_blank">Work</a>
-      <a style={styles.item} href="/posts">Posts</a>
+      <a style={styles.item} href="https://medium.com/@fmauricios">Posts</a>
       <a style={styles.item} href="https://s3-us-west-2.amazonaws.com/mauricioserna/static/documents/cv.pdf" target="_blank">Curriculum Vitae</a>
     </nav>
   )
