@@ -1,13 +1,10 @@
 
 import React from 'react'
 
-import withPosts, { inCategory, sortByDate } from 'nextein/posts'
-
-import PostListEntry from '../components/post-list-entry'
 import NexteinHello from '../components/home'
 import Navigation from '../components/navigation'
 
-const Index = ({ posts }) => {
+const Index = () => {
 
   return (
     <main style={styles.main}>
@@ -17,7 +14,7 @@ const Index = ({ posts }) => {
   )
 }
 
-export default withPosts(Index)
+export default Index
 
 const styles = {
   main: {    
