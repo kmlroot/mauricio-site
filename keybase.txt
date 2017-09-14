@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/fmauricios
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mauricio.now.sh
+  * I am fmauricios (https://keybase.io/fmauricios) on keybase.
+  * I have a public key with fingerprint 3B71 58DD D805 7AFD 7937  24F4 FE3B 409C 682E 64DF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a6b13b5049996cdc709a09459592ba38fab71caa36493e506bde7d517dfcaee90a",
+      "fingerprint": "3b7158ddd8057afd793724f4fe3b409c682e64df",
+      "host": "keybase.io",
+      "key_id": "fe3b409c682e64df",
+      "kid": "0101a6b13b5049996cdc709a09459592ba38fab71caa36493e506bde7d517dfcaee90a",
+      "uid": "428f6a052d564baeea22cd9671b17f19",
+      "username": "fmauricios"
+    },
+    "service": {
+      "hostname": "mauricio.now.sh",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1505424823,
+  "expire_in": 157680000,
+  "prev": "c82cffe7f4c163371f6ef0bc43bc1bbb9adbc6a46228d67e4b534c689043ab66",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJdSBRRFF61NJfCTIJSMhuKkEzm586duUs/+hDUU09WhrHcO/fOOqkz
+28ysuiwR2M9WDxb9CEkRhUFIv2B/gou2GUQR9aAkGtKDiNSrhUjaHcm3Hrsvh3vO
+933nO4fzZk1eKJwDtrwpbph52pvzfuhWIlTfP/siJRCHJoVISmhiS4E1U+b50SaL
+ChFBlEQJQyIpRBUBQgga1NBEhEUEVKQimWBFNzHRJANjBQKkMFWEhDKNqpJGTQMz
+hkQsVAmmZceYG3ct2+eyCmeoOqVUF1UNm1RDiiYDE5hMIUBEBtRlBgE1ObHR8QIG
+N0ewx6oth+f4J7pk7x/4/+w7sSQHZN2EWFRlqkJAeBHLskER1CQiaaaEAqDHXBu3
+sMBVC064lmE5nnCySuD5VstgwWqDWf5iliHVttNW7TVygbjr+I7hNPNio+/HvUhA
+9pPxAN3GSPSvTpRYNuXL5IxW5nqWYwsRiSMN3wqEJVVUgQx0WakSWHvcclnUChCq
+BnWRv6APa+WShi4bpsk0ExgSVBRNMiEzRWIAhRgSIQRhSgyIAZRlnUKNAaIqgC8a
+iUDBBEIhmOyE7QgRhbfycYxrelbMxn7CZcLJ14MNK0I54VD+ytzgykLhwrXLtzf1
+qmAx+fr7gcGikVOTn+p7ezqSvUUHwwtdMF2X17Srp7S8fLgYDl+bf/JrrHTg4oN1
+ZSPp2rnc3Or0RelF0cb5zy3t2360Xkgcy9RMjC9UDF8ue/fw7ZZfXV+757J+9kvf
+rfSq0WffPly9/rhjpPBo3tDqxdunCu7kd5/eXXlf2jqdynaW2BXlIxU7N30cyz7C
+4VCmtiR2484lbz0dO7+3pzibbEH3Dm2cm5+fQX3NMHaG9p/ttzL79lc+2jCdGZ0s
+TQ0cHux6fm50+8sY+VkGa0trOuqz453ukR3p390TqeONDVObZ2pKruxpv1nweHZw
+ob2nO/V8793McN2FLnHI7kRzK/4AkwBKPQ==
+=Xt24
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fmauricios
+
+==================================================================
+
