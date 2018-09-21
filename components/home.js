@@ -1,14 +1,12 @@
-
 import React from 'react'
 
 export default () => (
   <section style={styles.section}>
-    <h1><span style={{ fontWeight: 200 }} >Hello, there. I'm </span>Mauricio Serna</h1>
+    <h1><span style={{ fontWeight: 200 }} >Hello, there. I'm </span>Mauricio Serna Florez</h1>
     <figure>
-      <img src="https://s3-us-west-2.amazonaws.com/mauricioserna/static/perfil.jpg" alt="perfil"
-      style={styles.img}/>
+      <img src={`${__dirname}static/perfil.jpeg`} style={styles.img} />
     </figure>
-    <p> A Software Developer from <strong>Medellin, Colombia</strong></p>
+    <p> A Software Engineer at <strong>Bancolombia Innovation Area 🇨🇴</strong> </p>
   </section>
 )
 
